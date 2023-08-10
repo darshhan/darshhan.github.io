@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Orbitron:wght@500&family=Oxygen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    overflow-x: hidden; 
+    font-family:  'Lato', sans-serif;
+    background-color: black;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    color: white;
+    font-family:  'Lato', sans-serif; 
+    
+}
+
+.one{
+    opacity: 1;
+   background-color:  rgba(33,33,33,1);
+}
+.navbar ul li{
+    font-size: 16px;
+    list-style: none;
+    margin-left: 10px;
+}
+
+#main-container{   
+    min-height: 400px;
+    background-image: url('first.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#gix{
+    font-size: 64px;
+    font-family: 'Orbitron', 'Arial';
+    margin: 68px 0 0 0 ;
+}
+#mediumhead{
+    font-size: 64px;
+    font-family: 'Oxygen', 'Arial';
+}
+#smallhead{
+    font-family: 'Oxygen', 'Arial';
+    font-size: 24px;
+}
+.back-text{
+    display: flex;
+    text-align: center;
+    justify-content: center ;
+}
+.logo2{
+    display: block;
+    width: 167px;
+    height: 140px;
+}
+
+.buy-link {
+    border-radius: 4px;
+    background-color: white;
+    margin: 10px;
+}
+.buy-link a{
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none ;
+    list-style: none;
+    color: black;
+}
+.pay img{
+    padding: 26px 0 0;
+    width: 253px;
+    margin-left: 269px;
+    margin-bottom: 24px;
+    
+}
+
+#farm-img img{
+    height: 191.66px;
+    width: 365.09px;
+    margin-left: 37%;
+    margin-top: 24px;
+    margin-right: 50%;
+    margin-bottom: 24px;
+    
+}
+
+.section1{
+    font-size: 12pt;
+    width: 1160px;
+    margin: 15px 0 17px 182px;
+    font-weight: 600;
+}
+
+.earth
+{
+    margin-left: 183px;
+    width: 1154px;
+}
+.col-12 p{
+    font-size: 2.1rem;
+    margin-top: 24px;
+    font-weight: normal;
+    margin-left: 150px;
+}
+ul li{
+    list-style-type: square;
+}
+ul p{
+    margin-bottom: 6px;
+    list-style-type: square;
+}
+.cargo img{
+    width: 365px;
+}
+.cargo-text{
+    padding-top: 20px;
+    vertical-align: baseline;
+    margin-left: 80px;
+}
+#section2{
+    margin-top: 30px;
+}
+#section3{
+    margin-left: 183px;
+    margin-top: 30px;
+}
+#section4 h2{   
+    font-weight: 400;}
+#section4{
+    font-weight: 600;
+    margin-top:24px ;
+    margin-left: 181px;
+}
+
+#section4img{
+    width: 463px;
+}
+
+.section5 img{
+    width: 463px;
+}
+.section5{
+    margin-left: 76px;
+    margin-top: 48px;
+}
+
+.text5{
+   margin-left: 285px;
+   margin-top: 85px;
+   font-weight: 600;
+}
+.section6 img{
+    width: 562px;
+}
+.link{
+    background-color: grey;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    margin: 0 12px;
+}
+.footer{
+   display: flex;
+   align-items: center;
+}
